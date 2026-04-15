@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Rahul Sharma | Digital Portfolio</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-primary-fixed-variant": "#005142",
+                      "outline": "#85948e",
+                      "inverse-on-surface": "#233148",
+                      "primary-fixed": "#5ffbd6",
+                      "tertiary-fixed": "#d9e2ff",
+                      "secondary": "#b6c6ed",
+                      "surface-container-low": "#0d1c32",
+                      "surface-container": "#112036",
+                      "tertiary-container": "#d9e2ff",
+                      "on-tertiary": "#263049",
+                      "on-secondary-container": "#a5b5db",
+                      "secondary-container": "#374767",
+                      "outline-variant": "#3c4a45",
+                      "primary-fixed-dim": "#38debb",
+                      "on-error": "#690005",
+                      "surface-container-high": "#1c2a41",
+                      "on-secondary-fixed": "#091b39",
+                      "on-surface-variant": "#bacac3",
+                      "surface-container-lowest": "#010e24",
+                      "on-secondary-fixed-variant": "#374767",
+                      "secondary-fixed": "#d8e2ff",
+                      "on-error-container": "#ffdad6",
+                      "primary": "#ffffff",
+                      "inverse-surface": "#d6e3ff",
+                      "on-tertiary-container": "#5a647f",
+                      "surface-container-highest": "#27354c",
+                      "surface": "#041329",
+                      "on-secondary": "#20304f",
+                      "on-background": "#d6e3ff",
+                      "on-primary-container": "#00725e",
+                      "background": "#041329",
+                      "surface-variant": "#27354c",
+                      "primary-container": "#5ffbd6",
+                      "surface-bright": "#2c3951",
+                      "surface-tint": "#38debb",
+                      "on-surface": "#d6e3ff",
+                      "tertiary": "#ffffff",
+                      "error-container": "#93000a",
+                      "on-tertiary-fixed-variant": "#3c4660",
+                      "surface-dim": "#041329",
+                      "on-primary": "#00382d",
+                      "on-tertiary-fixed": "#101b33",
+                      "tertiary-fixed-dim": "#bcc6e5",
+                      "error": "#ffb4ab",
+                      "inverse-primary": "#006b58",
+                      "on-primary-fixed": "#002019",
+                      "secondary-fixed-dim": "#b6c6ed"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Space Grotesk"],
+                      "body": ["Manrope"],
+                      "label": ["Manrope"]
+              }
+            },
+          }
+        }
+      </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .glass-nav {
+            background-color: rgba(17, 32, 54, 0.7);
+            backdrop-filter: blur(20px);
+        }
+      </style>
+</head>
+<body class="bg-surface text-on-surface font-body overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-[0_20px_40px_-10px_rgba(1,14,36,0.4)]">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-6">
+<a class="text-2xl font-bold tracking-tighter text-white font-headline" href="#">RAHUL SHARMA</a>
+<!-- Desktop Links -->
+<div class="hidden md:flex items-center space-x-10">
+<a class="text-white/70 hover:text-primary-fixed transition-colors duration-300 font-medium" href="#about">About</a>
+<a class="text-white/70 hover:text-primary-fixed transition-colors duration-300 font-medium" href="#skills">Skills</a>
+<a class="text-white/70 hover:text-primary-fixed transition-colors duration-300 font-medium" href="#projects">Projects</a>
+<a class="text-white/70 hover:text-primary-fixed transition-colors duration-300 font-medium" href="#contact">Contact</a>
+<a class="px-6 py-2 border-2 border-primary-fixed text-primary-fixed font-bold hover:bg-primary-fixed hover:text-on-primary transition-all duration-300 scale-95 active:scale-90" href="#">Resume</a>
+</div>
+<!-- Mobile Toggle -->
+<div class="md:hidden flex items-center">
+<span class="material-symbols-outlined text-primary-fixed">menu</span>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="min-h-screen flex flex-col items-center justify-center relative px-8" id="hero">
+<div class="max-w-7xl w-full grid grid-cols-12 gap-8">
+<div class="col-span-12 md:col-span-8 flex flex-col justify-center">
+<p class="text-primary-fixed font-headline font-medium tracking-[0.2em] mb-4 uppercase">Greetings, World.</p>
+<h1 class="text-7xl md:text-8xl font-headline font-bold text-white tracking-tighter mb-6 leading-none">
+                    Rahul Sharma<span class="text-primary-fixed">.</span>
+</h1>
+<p class="text-2xl md:text-3xl font-headline text-primary-fixed-dim font-medium mb-4">
+                    Building the future with code
+                </p>
+<p class="text-lg md:text-xl text-on-surface-variant max-w-xl mb-12">
+                    Third-year CS Student | Seeking Internships. Crafting high-performance digital experiences through architectural precision and clean code.
+                </p>
+<div class="flex gap-6">
+<a class="group relative px-8 py-4 border border-primary-fixed text-primary-fixed font-headline font-bold tracking-wider overflow-hidden hover:text-on-primary transition-all duration-300" href="#projects">
+<span class="relative z-10">VIEW MY WORK</span>
+<div class="absolute inset-0 bg-primary-fixed translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+</a>
+</div>
+</div>
+</div>
+<!-- Decorative Grid Element -->
+<div class="absolute bottom-10 right-10 opacity-10 hidden md:block">
+<div class="grid grid-cols-6 gap-2">
+<div class="w-2 h-2 bg-primary-fixed"></div><div class="w-2 h-2 bg-primary-fixed"></div><div class="w-2 h-2 bg-primary-fixed"></div><div class="w-2 h-2 bg-primary-fixed"></div><div class="w-2 h-2 bg-primary-fixed"></div><div class="w-2 h-2 bg-primary-fixed"></div>
+<div class="w-2 h-2 bg-primary-fixed"></div><div class="w-2 h-2 bg-primary-fixed"></div><div class="w-2 h-2 bg-primary-fixed"></div><div class="w-2 h-2 bg-primary-fixed"></div><div class="w-2 h-2 bg-primary-fixed"></div><div class="w-2 h-2 bg-primary-fixed"></div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-24 bg-surface-container-low px-8" id="about">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-7">
+<div class="flex items-center gap-4 mb-8">
+<span class="h-[1px] w-12 bg-primary-fixed"></span>
+<h2 class="text-3xl font-headline font-bold text-white uppercase tracking-widest">About Me</h2>
+</div>
+<div class="space-y-6 text-lg text-on-surface-variant leading-relaxed">
+<p>
+                        I am a passionate Computer Science student dedicated to solving complex problems through elegant software solutions. My journey in tech is driven by a curiosity for how systems scale and a commitment to clean, maintainable architecture.
+                    </p>
+<p>
+                        Currently focusing on full-stack development, I enjoy bridging the gap between robust backend logic and intuitive frontend experiences. When I'm not coding, you'll find me exploring the latest in digital architecture or contributing to open-source projects.
+                    </p>
+</div>
+</div>
+<div class="md:col-span-5 flex justify-center">
+<div class="relative group">
+<div class="absolute -inset-4 border-2 border-primary-fixed/20 translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
+<div class="w-64 h-80 bg-surface-container relative overflow-hidden">
+<img alt="Rahul Sharma" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="Professional headshot of a young man with a confident expression in front of a neutral architectural background, soft cinematic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-fvKrmPSMiweDG8gQIOUCXyl4Q_VCFuCKxDuUIZZpsRmC1T13OQ3o97baWAusjNRd-CJA4xCa59sdiz366WIWLaDXCwmZWFNupYHcyQVbwWas0424vBHY5ipDOzuZPaAvApo3O3ar9V2pjpFW4E40I6yLAEKViJtYAZw_5a7gLcLkOK4f8PXy12Pn9y54hCbOuGXOdC0IVrvXpUJotZgywHuZ9TVjIVFv5IP7ubP0DNgks0yKz1-6Qe4mgzAnbHVVufaHxUYGHqw"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Skills Section -->
+<section class="py-24 px-8" id="skills">
+<div class="max-w-7xl mx-auto">
+<div class="flex items-center gap-4 mb-16 justify-center">
+<span class="h-[1px] w-12 bg-primary-fixed"></span>
+<h2 class="text-3xl font-headline font-bold text-white uppercase tracking-widest">Tech Stack</h2>
+<span class="h-[1px] w-12 bg-primary-fixed"></span>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+<!-- Python -->
+<div class="group bg-surface-container p-8 flex flex-col items-center justify-center gap-4 hover:bg-surface-container-high hover:-translate-y-2 transition-all duration-300 border-b-2 border-transparent hover:border-primary-fixed">
+<span class="material-symbols-outlined text-4xl text-primary-fixed" data-icon="terminal">terminal</span>
+<span class="font-headline font-bold text-sm tracking-widest uppercase">Python</span>
+</div>
+<!-- Java -->
+<div class="group bg-surface-container p-8 flex flex-col items-center justify-center gap-4 hover:bg-surface-container-high hover:-translate-y-2 transition-all duration-300 border-b-2 border-transparent hover:border-primary-fixed">
+<span class="material-symbols-outlined text-4xl text-primary-fixed" data-icon="coffee">coffee</span>
+<span class="font-headline font-bold text-sm tracking-widest uppercase">Java</span>
+</div>
+<!-- MySQL -->
+<div class="group bg-surface-container p-8 flex flex-col items-center justify-center gap-4 hover:bg-surface-container-high hover:-translate-y-2 transition-all duration-300 border-b-2 border-transparent hover:border-primary-fixed">
+<span class="material-symbols-outlined text-4xl text-primary-fixed" data-icon="database">database</span>
+<span class="font-headline font-bold text-sm tracking-widest uppercase">MySQL</span>
+</div>
+<!-- React -->
+<div class="group bg-surface-container p-8 flex flex-col items-center justify-center gap-4 hover:bg-surface-container-high hover:-translate-y-2 transition-all duration-300 border-b-2 border-transparent hover:border-primary-fixed">
+<span class="material-symbols-outlined text-4xl text-primary-fixed" data-icon="deployed_code">deployed_code</span>
+<span class="font-headline font-bold text-sm tracking-widest uppercase">React</span>
+</div>
+<!-- Git -->
+<div class="group bg-surface-container p-8 flex flex-col items-center justify-center gap-4 hover:bg-surface-container-high hover:-translate-y-2 transition-all duration-300 border-b-2 border-transparent hover:border-primary-fixed">
+<span class="material-symbols-outlined text-4xl text-primary-fixed" data-icon="fork_right">fork_right</span>
+<span class="font-headline font-bold text-sm tracking-widest uppercase">Git</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="py-24 bg-surface-container-lowest px-8" id="projects">
+<div class="max-w-7xl mx-auto">
+<div class="flex items-center gap-4 mb-16">
+<span class="h-[1px] w-12 bg-primary-fixed"></span>
+<h2 class="text-3xl font-headline font-bold text-white uppercase tracking-widest">Selected Works</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<!-- Project 1 -->
+<div class="group relative bg-surface-container p-10 hover:bg-surface-container-high transition-all duration-300 border-l-2 border-transparent hover:border-primary-fixed">
+<div class="flex justify-between items-start mb-8">
+<span class="material-symbols-outlined text-4xl text-primary-fixed" data-icon="school">school</span>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-xl text-on-surface-variant hover:text-primary-fixed cursor-pointer" data-icon="open_in_new">open_in_new</span>
+</div>
+</div>
+<h3 class="text-2xl font-headline font-bold text-white mb-4">Student Result Management System</h3>
+<p class="text-on-surface-variant mb-8 leading-relaxed">
+                        A robust administrative tool built to automate student performance tracking, grading hierarchies, and secure data retrieval for academic institutions.
+                    </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-surface-container-highest text-[10px] font-bold tracking-tighter text-primary-fixed rounded-sm uppercase">Java</span>
+<span class="px-3 py-1 bg-surface-container-highest text-[10px] font-bold tracking-tighter text-primary-fixed rounded-sm uppercase">MySQL</span>
+<span class="px-3 py-1 bg-surface-container-highest text-[10px] font-bold tracking-tighter text-primary-fixed rounded-sm uppercase">JDBC</span>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="group relative bg-surface-container p-10 hover:bg-surface-container-high transition-all duration-300 border-l-2 border-transparent hover:border-primary-fixed">
+<div class="flex justify-between items-start mb-8">
+<span class="material-symbols-outlined text-4xl text-primary-fixed" data-icon="payments">payments</span>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-xl text-on-surface-variant hover:text-primary-fixed cursor-pointer" data-icon="open_in_new">open_in_new</span>
+</div>
+</div>
+<h3 class="text-2xl font-headline font-bold text-white mb-4">Personal Finance Tracker</h3>
+<p class="text-on-surface-variant mb-8 leading-relaxed">
+                        A data-driven web application featuring interactive charts and real-time budget forecasting to help users manage their financial health.
+                    </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-surface-container-highest text-[10px] font-bold tracking-tighter text-primary-fixed rounded-sm uppercase">React</span>
+<span class="px-3 py-1 bg-surface-container-highest text-[10px] font-bold tracking-tighter text-primary-fixed rounded-sm uppercase">JavaScript</span>
+<span class="px-3 py-1 bg-surface-container-highest text-[10px] font-bold tracking-tighter text-primary-fixed rounded-sm uppercase">Chart.js</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-32 px-8 text-center relative overflow-hidden" id="contact">
+<div class="max-w-3xl mx-auto relative z-10">
+<p class="text-primary-fixed font-headline font-medium tracking-[0.3em] mb-4 uppercase">Next Steps</p>
+<h2 class="text-5xl md:text-6xl font-headline font-bold text-white mb-8 tracking-tighter">Get In Touch</h2>
+<p class="text-on-surface-variant text-lg mb-12 max-w-lg mx-auto">
+                I am currently open to internship opportunities and collaborative projects. Whether you have a question or just want to say hi, my inbox is always open.
+            </p>
+<a class="inline-block group relative px-12 py-5 border-2 border-primary-fixed text-primary-fixed font-headline font-bold tracking-widest overflow-hidden hover:text-on-primary transition-all duration-300" href="mailto:rahul@email.com">
+<span class="relative z-10 uppercase">Say Hello</span>
+<div class="absolute inset-0 bg-primary-fixed translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
+</a>
+<div class="flex justify-center gap-8 mt-16">
+<a class="text-on-surface-variant hover:text-primary-fixed transition-colors duration-300 flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-2xl" data-icon="code">code</span>
+<span class="font-bold text-xs tracking-widest uppercase">GitHub</span>
+</a>
+<a class="text-on-surface-variant hover:text-primary-fixed transition-colors duration-300 flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-2xl" data-icon="diversity_3">diversity_3</span>
+<span class="font-bold text-xs tracking-widest uppercase">LinkedIn</span>
+</a>
+</div>
+</div>
+<!-- Background Glow -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-fixed/5 blur-[120px] rounded-full pointer-events-none"></div>
+</section>
+<!-- Footer -->
+<footer class="w-full bg-[#041329] border-t border-[#3c4a45]/15">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-8 py-12 gap-6 font-['Manrope'] text-sm tracking-wide">
+<div class="text-lg font-bold text-white font-headline">RAHUL SHARMA</div>
+<p class="text-white/50 text-center">© 2024 Rahul Sharma. Built for the Digital Architecture.</p>
+<div class="flex gap-8">
+<a class="text-white/50 hover:text-primary-fixed transition-colors duration-300" href="#">LinkedIn</a>
+<a class="text-white/50 hover:text-primary-fixed transition-colors duration-300" href="#">GitHub</a>
+<a class="text-white/50 hover:text-primary-fixed transition-colors duration-300" href="#">Twitter</a>
+</div>
+</div>
+</footer>
+</body></html>
